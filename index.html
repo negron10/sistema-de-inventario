@@ -1,8 +1,180 @@
 <html>
   <head>
-    
+    <title>Sistema de Inventario</title>
   </head>
   <body>
-    <h1></h1>
+    <center><h1>Solución informática para la gestión de inventarios de la tienda “San Francisco”</h1></center>
+	<ol>
+		<b><li>Describir un proyecto basado en la ingeniería de software, donde se detalle:</li></b>
+		<ul>
+			<li><h2>Temática</h2></li>
+			<p>Implementación de una solución informática para la gestión de inventarios de la tienda “San Francisco”</p>
+			<p>Debido al crecimiento sostenido de la tienda “San Francisco” en los últimos años, varios de los procesos realizados se han vuelto complicados de manejar ya que requieren mucha carga operativa y presentan un  gran aumento en el manejo de documentos físicos. A pesar del esfuerzo del administrador de la tienda, no se logra tener un buen control de la información de las mercaderías, ya que ninguno de los archivos de inventarios de la tienda es digitalizado, por lo que, la probabilidad de alteración y pérdida de la información es muy probable. Actualmente el uso de tecnología en las empresas para la automatización de funciones  y recursos a cualquier instante esta creciendo cada vez mas, debido a esto se propone desarrollar una herramienta de software en la que puedan incluirse los diferentes procesos de manejo de mercaderías y productos del local comercial para que puedan ser manejados de manera eficiente.</p>
+			<li><h2>Objetivos</h2></li>
+			<h3>Objetivo general</h3>
+			<ul>
+				<li>Implementar una solución informática para la gestión de inventarios de la tienda “San Francisco”.</li>
+			</ul>
+			<h3>Objetivos especificos</h3>
+			<ul>
+				<li>Analizar los distintos procesos que se realizan para el control de inventarios de la tienda por medio de la notación BPMN.</li>
+				<li>Desarrollar el sistema de gestión de inventarios para la tienda, aplicando la metodología Scrum.</li>
+				<li>Evaluar el sistema de gestión de inventarios para la comprobación de funcionalidades por medio de software de pruebas.</li>
+			</ul>
+		</ul>
+		<br>
+			<ul>
+				<li><h2>Alcance proyecto</h2></li>
+				<p>La tienda “San Francisco” no posee un sistema que permita gestionar los diversos procesos involucrados en el inventario de la mercadería que recibe, la forma de llevar el inventario actualmente consiste en el registro diario en un cuaderno, así que resulta un problema el control del inventario de esta manera, ya que en muchos de los casos los productos no son anotados correctamente, lo cual provoca desfases en la cantidad de productos por lo cual el inventario producido no presenta el verdadero numero de las mercaderías en un momento determinado.</p>
+				<li>Objetivo 1: Analizar los distintos procesos que se realizan para el control de inventarios de la tienda por medio de la notación BPMN.</li>
+				<br>
+				<ul>
+					<li>Determinar los procesos que se realizan para el control de inventario</li>
+					<li>Revisar trabajos relacionados en software de inventarios</li>
+					<li>Determinar los requerimientos para el desarrollo de la solución informática</li>
+					<li>Realizar el modelado de los procesos de control de inventarios</li>
+				</ul>
+				<br>
+				<li>Objetivo 2: Desarrollar el sistema de gestión de inventarios para la tienda, aplicando la metodología Scrum.</li>
+				<br>
+				<ul>
+					<li>Realizar el diseño de la solución informática mediante diagramas UML</li>
+					<li>Diseñar la interfaz grafica de usuario y los distintos formularios</li>
+					<li>Programar el software de control de inventario con el lenguaje de programación elegido</li>
+				</ul>
+				<br>
+				<li>Objetivo 3: Evaluar el sistema de gestión de inventarios para la comprobación de funcionalidades por medio de software de pruebas.</li>
+				<br>
+				<ul>
+					<li>Definir la directrices para la ejecución de pruebas</li>
+					<li>Ejecutar las pruebas de software en un ambiente controlado</li>
+					<li>Evaluar los resultados obtenidos</li>
+				</ul>
+				<br>
+				<li><h2>Tecnologías (Lenguajes, metodologías, plataformas)</h2></li>
+				<ul>
+					<li>Lenguaje de programación → Javascript</li>
+					<li>Lenguaje de marcado → html</li>
+					<li>Lenguaje de estilos → css</li>
+					<li>Lenguajes de consulta → sql</li>
+					<li>Metodologías y marco de trabajo → Scrum, kanban</li>
+					<li>Plataformas y base de datos → Nodejs, npm, mariadb</li>
+					<li>Entorno de programación → GNU/Linux</li>
+				</ul>
+				<br>
+				
+				<center><h3>Análisis FODA de Nodejs</h3></center>
+				
+				<table class="default">
+				  <tr>
+					<th>Fortalezas</th>
+					<th>Debilidades</th>
+					<th>Oportunides</th>
+					<th>Amenazas</th>
+				  </tr>
+				  <tr>
+					<td>La compilación de Node.js se realiza en tiempo de ejecución, lo que conlleva una mayor optimización a las funciones que más veces sean llamadas.</td>
+					<td>se tiende a romper la compatibilidad entre versiones distintas de nodejs.</td>
+					<td>Una comunidad activa y que da mucho apoyo a peronas principiantes en Nodejs.</td>
+					<td>Las aplicaciones puede ocupar demasiado espacio si se exagera en el uso de librerías externas.</td>
+				  </tr>
+				  <tr>
+					<td>Mediante clusters permite tener una escalabilidad alta.</td>
+					<td>El uso intensivo de la CPU anula todos los beneficios de rendimiento que posee.</td>
+					<td>Actualizaciones contantes con respectivas correciones de fallas de seguridad.</td>
+					<td>Proyectos antiguos pueden ser incompatibles si no se usa versiones LTS  de Nodejs.</td>
+				  </tr>
+				  <tr>
+					<td>Podemos expandir nuestro código añadiendo módulos de forma fácil gracias al Node Package Manager (npm).</td>
+					<td></td>
+					<td>Usa el lenguaje de programación más popular en la web(javacripts).</td>
+				  </tr>
+				  <tr>
+					<td>En startups o equipos pequeños podremos realizar front-end, back-end y hasta una aplicación móvil con un mismo lenguaje.</td>
+					<td></td>
+					<td></td>
+				  </tr>
+				</table>
+				<br>
+				
+				<center><h3>Análisis FODA de MariaDB</h3></center>
+				
+				<table class="default">
+				  <tr>
+					<th>Fortalezas</th>
+					<th>Debilidades</th>
+					<th>Oportunides</th>
+					<th>Amenazas</th>
+				  </tr>
+				  <tr>
+					<td>Es segura y altamente fiable. Ofrece el alto rendimiento, la alta disponibilidad y la escalabilidad que se necesitan para entornos empresariales de toda dimensión.</td>
+					<td>La migración puede ser costosa si no se parte de MySQL.</td>
+					<td>Es la elección de muchas grandes compañías para potenciar sus aplicaciones.</td>
+					<td>Alta rivalidad con su competidor de codigo propietario(MYSQL)</td>
+				  </tr>
+				  <tr>
+					<td>Permite una implementación flexible y un despliegue facil en entornos en la nube.</td>
+					<td></td>
+					<td>Es el SGBD de código abierto de más rápido crecimiento.</td>
+					<td></td>
+				  </tr>
+				  <tr>
+					<td></td>
+					<td></td>
+					<td>amplia gama de recursos técnicos, de ventas y de marketing</td>
+				  </tr>
+				  <tr>
+					<td></td>
+					<td></td>
+					<td>formación y consultoría por parte de los principales expertos de la industriaamplia gama de recursos técnicos, de ventas y de marketing</td>
+				  </tr>
+				  <tr>
+					<td></td>
+					<td></td>
+					<td>formación y consultoría por parte de los principales expertos de la industria</td>
+				  </tr>
+				</table>
+				<br>
+				
+			</ul>
+		<b><li>Dentro del proceso de ingeniería de software, es la construcción de la solución informática. Detallar la posible metodología, filosofía o arquitectura de software a utilizar en el presente proyecto(Detallar fases, roles).</li></b>
+			<p>Para realizar el presente proyecto se hará uso de la metodología Scrum, la cual según [1] es un proceso para llevar a cabo un conjunto de tareas de forma regular con el objetivo principal de trabajar de manera colaborativa, es decir, para fomentar el trabajo en equipo. Con este método de trabajo lo que se pretende es alcanzar el mejor resultado de un proyecto determinado.</p>
+			<h2>Fases</h2>
+			<p>El desarrollo se realiza de forma iterativa e incremental. Según [1] cada iteración, denominada Sprint, tiene una duración preestablecida de entre 2 y 4 semanas, obteniendo como resultado una versión del software con nuevas prestaciones listas para ser usadas. En cada nuevo Sprint, se va ajustando la funcionalidad ya construida y se añaden nuevas prestaciones priorizándose siempre aquellas que aporten mayor valor de negocio.</p>
+			<ul>
+				<li>Product Backlog:</li>
+				<p>Conjunto de requisitos denominados historias, descritos en un lenguaje no técnico y priorizados por valor de negocio, o lo que es lo mismo, por retorno de inversión considerando su beneficio y coste. Los requisitos y prioridades se revisan y ajustan durante el curso del proyecto a intervalos regulares [1].</p>
+				<li>Sprint Planning:</li>
+				<p>Reunión durante la cual  el Product Owner presenta las historias del backlog por orden de prioridad. El equipo determina la cantidad de historias que puede comprometerse a completar en ese sprint, para en una segunda parte de la reunión, decidir y organizar cómo lo va a conseguir [1].</p>
+				<li>Sprint:</li>
+				<p>Iteración de duración prefijada durante la cual el equipo trabaja para convertir las historias del Product Backlog a las que se ha comprometido, en una nueva versión del software totalmente operativo [1].</p>
+				<li>Sprint Backlog:</li>
+				<p>Lista de las tareas necesarias para llevar a cabo las historias del sprint [1].</p>
+				<li>Daily sprint meeting:</li>
+				<p>Reunión diaria de cómo máximo 15 min. en la que el equipo se sincroniza para trabajar de forma coordinada. Cada miembro comenta que hizo el día anterior, que hará hoy y si hay impedimentos [1].</p>
+				<li>Demo y retrospectiva:</li>
+				<p>Reunión que se celebra al final del sprint y en la que el equipo presenta las historias conseguidas mediante una demostración del producto. Posteriormente, en la retrospectiva, el equipo analiza qué se hizo bien, qué procesos serían mejorables y discute acerca de cómo perfeccionarlos [1].</p>
+			</ul>
+			<h2>Roles</h2>
+			<ul>
+				<li>Scrum master:</li>
+				<p>Persona que lidera al equipo guiándolo para que cumpla las reglas y procesos de la metodología. Gestiona la reducción de impedimentos del proyecto y trabaja con el Product Owner para maximizar el ROI[2].</p>
+				<li>Product owner (PO):</li>
+				<p>Representante de los accionistas y clientes que usan el software. Se focaliza en la parte de negocio y el es responsable del ROI del proyecto (entregar un valor superior al dinero invertido). Traslada la visión del proyecto al equipo, formaliza las prestaciones en historias a incorporar en el Product Backlog y las re-prioriza de forma regular[2].</p>
+				<li>Team:</li>
+				<p>Grupo de profesionales con los conocimientos técnicos necesarios y que desarrollan el proyecto de manera conjunta llevando a cabo las historias a las que se comprometen al inicio de cada sprint[2].</p>
+			</ul>
+		<b><li>En base a la selección en el numeral 2, levantar el proceso en notación BPM (bpmn)</li></b>
+		<br>
+		<img src="bpm.png">
+	</ol>
   </body>
+  <footer>
+	<h2>Bibliografia</h2>
+	<ol>
+		<li>Tymkiw, N., Bournissen, J. M., & Tumino, M. C. SCRUM como metodología de enseñanza y aprendizaje de la Programación. In XXII Workshop de Investigadores en Ciencias de la Computación. Santa Cruz: El calafate,2020.</li>
+		<br>
+		<li>Castillo Cahuaza, C. P. Implementación de un sistema de información de capacitación y consulta de los procesos administrativos del área de registro civil y licencia de funcionamiento, para los trabajadores de la Municipalidad Distrital de La Banda de Shilcayo, Provincia de San Martín, haciendo uso de Scrum y Kanban. Universidad militar. San Martin,2019.</li>
+	</ol>
+  </footer>
 </html>
